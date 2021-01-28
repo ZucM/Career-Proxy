@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color1">#39A6BD</color>
+    <color name="color2">#03DAC5</color>
+
+    <color name="colorPrimary2">#3d95d0</color>
+    <color name="colorPrimaryDark2">#489855</color>
+    <color name="colorAccent2">#D81B60</color>
+    <color name="colorWhite">#fff</color>
+
+    <!--text color -->
+    <color name="textColor">#273d52</color>
+    <color name="headerColor">#145795</color>
+
+    <!-- gradient color -->
+    <color name="startColor">#006797</color>
+    <color name="endColor">#489855</color>
+    <color name="centerColor">#006797</color>
+    <color name="userRow">#403fc68b</color>
+
+    <!-- gradient color2 -->
+    <color name="startColor2">#006797</color>
+    <color name="endColor2">#489855</color>
+    <color name="centerColor2">#006797</color>
+    <color name="userRow2">#403fc68b</color>
+
+
+    <!-- icon color -->
+    <color name="iconColor">#145798</color>
+
+</resources>

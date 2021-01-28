@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:background="@drawable/a1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="79dp"
+                android:layout_height="79dp"
+                android:alpha="0.8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.22"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="145dp"
+                android:layout_height="77dp"
+                android:alpha="1"
+                android:gravity="center"
+                android:textColor="#C7D81B60"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="79dp"
+                android:layout_height="30dp"
+                android:background="@drawable/custombutton2"
+                android:text=" Log Out"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.981"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.901" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1600dp"
+            android:background="@drawable/a9">
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="391dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:alpha="1"
+                android:background="@drawable/custombutton3"
+                android:text="schools"
+                android:textColor="#151313"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="391dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="112dp"
+                android:background="@drawable/custombutton3"
+                android:text="COLLEGES"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="391dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="208dp"
+                android:background="@drawable/custombutton3"
+                android:text="Different School Boards"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="391dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="304dp"
+                android:background="@drawable/custombutton3"
+                android:text="Various College Streams"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="409dp"
+                android:layout_height="22dp"
+                android:layout_marginBottom="852dp"
+                android:text="  Top Exams this Year"
+                android:textColor="#0E0E0E"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="360dp"
+                android:layout_marginBottom="492dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:background="#1E1C1C"
+                    android:gravity="center"
+                    android:text="ICAR | AIEEA | UGC NET | JEE Main | MAH CET | NEET | CLAT | DUET | NIFT Entrance Exam | CBSE 12th | Jamia Millia Islamia Entrance Exam | NCHMCT JEE | ICSI Exam | RIE CEE | NIMCET | NATA | PUBDET | AIIMS Nursing | CFA Exam | SSAT | CUCET | NDA | MHT CET | CUET | AIAPGET | DU LLB Entrance Exam | JNUEE | NID Entrance Exam | TS Intermediate IIMC Entrance Exam | IIHM eCHAT | ICAI Exam | IGNOU BEd Entrance Test | NIELIT Exam | MAH MArch CET | BHU UET | IPU CET | AMU Entrance Exam | CUCET Chandigarh University | AUCET | IAS | CAT "
+                    android:textColor="#F17149"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="392dp"
+                    android:layout_height="5dp"
+                    android:layout_weight="1"
+                    android:background="#00EFEBEB"
+                    android:gravity="right"
+                    android:text="Details : https://www.shiksha.com"
+                    android:textColor="#3949AB"
+                    android:textSize="8sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:text="  Trending Colleges and Universities"
+                    android:textColor="#0B0A0A"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#1E1C1C"
+                    android:gravity="center"
+                    android:text="Delhi University | IGNOU | Christ University | JNU Delhi | University of Hyderabad | IP University | Chandigarh University | BHU | Loyola College | LPU Jalandhar | BITS Pilani | IIT Bombay | Amity University, Noida | Lucknow University | VIT Vellore | Mumbai University | Anna University | IIT Kharagpur | IIM Ahmedabad | SRM IST Chennai | PU Chandigarh | Parul University | MSU Baroda | Jadavpur University | DTU Delhi | Jain University, Bangalore | IIT Delhi | TISS Mumbai | Jamia Millia | SRCC Delhi | UniPune (Pune University) | JBIMS Mumbai | PSGCT | Coimbatore Mount Carmel College | Allahabad University  | FMS Delhi | MCC Chennai | Andhra University | IIM Indore"
+                    android:textColor="#F17149"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="395dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Details : https://www.shiksha.com"
+                    android:textColor="#3949AB"
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="174dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:text="  Trending Courses"
+                    android:textColor="#090808"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#1E1C1C"
+                    android:gravity="center"
+                    android:text="Science | Arts | Commerce | MBA (Masters of Business Administration) | BBA (Bachelor of Business Administration) | MBBS | B.Sc. | B.Com | BCA (Bachelor of Computer Applications) | B.A (Bachelor of Arts) | B Tech (Bachelor of Technology) | LL.B. | Company Secretary | Chartered Accountancy | Engineering | Fashion Designing | Paramedical | Medical Courses | B.Ed | M.Sc. (Master of Science) | Bachelor of Pharmacy (B.Pharma) | Hotel Management | Mass Communication and Media | Ph.D. | Psychology | Nursing | Agriculture | M.A. (Master of Arts) | Forensic Science"
+                    android:textColor="#F17149"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="394dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Details : https://www.shiksha.com"
+                    android:textColor="#3949AB"
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="331dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="424dp"
+                android:background="@drawable/custombutton2"
+                android:text="Web search Assistant"
+                android:textColor="#F8F3F3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.575"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="331dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="360dp"
+                android:background="@drawable/custombutton2"
+                android:text="Random Guess Game"
+                android:textColor="#FDFBFB"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.575"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="331dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="296dp"
+                android:background="@drawable/custombutton2"
+                android:text="Tic Tac Toe"
+                android:textColor="#FBF6F6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.575"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/Bot"
+                android:layout_width="331dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="232dp"
+                android:background="@drawable/custombutton2"
+                android:text="Customer Service Bot"
+                android:textColor="#FBF6F6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.575"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="417dp"
+                android:layout_height="217dp"
+                android:layout_marginTop="1388dp"
+                android:alpha="0.8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/end"
+                tools:srcCompat="@drawable/end5" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="121dp"
+                android:layout_height="15dp"
+                android:layout_marginBottom="152dp"
+                android:text="For further queries-"
+                android:textColor="#F4F4F4"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                app:fontFamily="sans-serif-condensed-light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="110dp"
+                android:layout_height="13dp"
+                android:layout_marginBottom="128dp"
+                android:text="Tel : +91 9556042489"
+                android:textColor="#FAF7F7"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.285"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="112dp"
+                android:text="Email : team_cp@gmail.com"
+                android:textColor="#FBFBFB"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="152dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Our Location-"
+                android:textColor="#FDFBFB"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.723"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="116dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="112dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="-29th Markstreet Road, 2nd Lane, Armstardam"
+                android:textColor="#FDFBFB"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.894"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="297dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="40dp"
+                android:alpha="0.3"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:text="Trade Marks belong to the respective owners. Copyright © 2020 Info edge India Ltd. All rights reserved."
+                android:textColor="#FDFBFB"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="408dp"
+                android:text="Recent News"
+                android:textColor="#090909"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.052"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="408dp"
+                android:layout_height="289dp"
+                android:layout_marginTop="436dp"
+                android:alpha="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/news1" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="408dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="456dp"
+                android:alpha="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.857"
+                app:layout_constraintStart_toStartOf="@+id/button27"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/news2" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="408dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="468dp"
+                android:alpha="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/news3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>
